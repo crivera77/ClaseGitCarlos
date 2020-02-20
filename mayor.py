@@ -1,2 +1,7 @@
-edad = int (input("Cual es tu edad"))
+edad = int (input("Cual es tu edad:"))
 print(f"TU edad es: { edad }")
+
+if edad > 18 :
+    print("Eres mayor de edad")
+else:
+    print("Sal de mi Bar! ! !")
